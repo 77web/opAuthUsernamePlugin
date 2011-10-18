@@ -1,0 +1,5 @@
+MemberConfig:
+  first_member_username:
+    name: "username"
+    value: "testuser"
+    Member: first_member
