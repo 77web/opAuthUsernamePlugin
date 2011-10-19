@@ -1,0 +1,7 @@
+OpenPNE3（3.6以降）に独自IDでログインできるようにするプラグインです。
+独自IDによる新規登録もサポート予定。
+
+＊opAuthMailAddressPluginをインストールしていないOpenPNEに本プラグインをインストールすると、
+ID testuser
+password password
+でOpenPNE君として最初のログインができます。
