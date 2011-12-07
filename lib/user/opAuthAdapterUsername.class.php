@@ -8,7 +8,7 @@ class opAuthAdapterUsername extends opAuthAdapter
   public function isRegisterBegin($memberId = null)
   {
     opActivateBehavior::disable();
-    $member = Doctrine::getTable('Member')->find((int)$member_id);
+    $member = Doctrine::getTable('Member')->find((int)$memberId);
     opActivateBehavior::enable();
 
     if (!$member)
@@ -34,7 +34,7 @@ class opAuthAdapterUsername extends opAuthAdapter
   public function isRegisterFinish($memberId = null)
   {
     opActivateBehavior::disable();
-    $member = Doctrine::getTable('Member')->find((int)$member_id);
+    $member = Doctrine::getTable('Member')->find((int)$memberId);
     opActivateBehavior::enable();
 
     if (!$member || !$member->getName())
