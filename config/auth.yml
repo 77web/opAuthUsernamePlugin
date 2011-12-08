@@ -9,7 +9,7 @@ enable_pc:
 
 auth_mode_caption:
   IsConfig: 0
-  Default: "Username Address Login"
+  Default: "Username Login"
 
 self_invite_action:
   Default: "authUsername/register"

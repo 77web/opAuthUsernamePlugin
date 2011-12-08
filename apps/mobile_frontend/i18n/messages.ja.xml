@@ -6,6 +6,10 @@
         <source>Username</source>
         <target>ﾕｰｻﾞｰ名</target>
       </trans-unit>
+      <trans-unit id="">
+        <source>Username Login</source>
+        <target>ﾕｰｻﾞｰ名でﾛｸﾞｲﾝ</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
