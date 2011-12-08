@@ -14,10 +14,10 @@
   <active>yes</active>
  </lead>
  <date>2011-12-08</date>
- <time>11:51:30</time>
+ <time>19:37:53</time>
  <version>
-  <release>0.9.0</release>
-  <api>0.9.0</api>
+  <release>0.9.1</release>
+  <api>0.9.1</api>
  </version>
  <stability>
   <release>beta</release>
@@ -36,7 +36,7 @@
    <file baseinstalldir="/" md5sum="43f9f6282097a04546680f64d5c50d07" name="apps/pc_frontend/i18n/messages.ja.xml" role="data" />
    <file baseinstalldir="/" md5sum="6cfd75ca626dc0172f7dd088e16a56e6" name="apps/pc_frontend/modules/authUsername/actions/actions.class.php" role="data" />
    <file baseinstalldir="/" md5sum="77c99d03d8c117689b5fc5c0652e5c51" name="config/auth.yml" role="data" />
-   <file baseinstalldir="/" md5sum="bbfa10e479069aff3cd6a0be58fa7db4" name="data/fixtures/firstuser.yml" role="data" />
+   <file baseinstalldir="/" md5sum="7c88b287f8b62067881d618c2aff6fb3" name="data/fixtures/firstuser.yml" role="data" />
    <file baseinstalldir="/" md5sum="a59bce265798ef72eda5d5f86fa0dade" name="lib/action/opAuthUsernamePluginAuthUsernameActions.class.php" role="data" />
    <file baseinstalldir="/" md5sum="346f75299466a13851e28e5569f0f651" name="lib/form/opAuthConfigFormUsername.class.php" role="data" />
    <file baseinstalldir="/" md5sum="a22112823968a65bf8e4fff6a49522b2" name="lib/form/opAuthLoginFormUsername.class.php" role="data" />
@@ -71,8 +71,8 @@
  <changelog>
   <release>
    <version>
-    <release>0.9.0</release>
-    <api>0.9.0</api>
+    <release>0.9.1</release>
+    <api>0.9.1</api>
    </version>
    <stability>
     <release>beta</release>
