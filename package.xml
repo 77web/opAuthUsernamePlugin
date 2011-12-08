@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>opAuthUsernamePlugin</name>
+ <channel>plugins.openpne.jp</channel>
+ <summary>[開発中]ユーザー名によるログイン</summary>
+ <description>[開発中]メールアドレスでなく独自のIDによる認証ができるようにするプラグイン</description>
+ <lead>
+  <name>77web</name>
+  <user>77web</user>
+  <email />
+  <active>yes</active>
+ </lead>
+ <date>2011-12-08</date>
+ <time>11:49:06</time>
+ <version>
+  <release>0.9.0</release>
+  <api>0.9.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license>PHP</license>
+ <notes>
+ログイン・新規登録まで。
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="c33c28d309f1abc948dd70a0f8fdf6a0" name="apps/mobile_frontend/i18n/messages.ja.xml" role="data" />
+   <file baseinstalldir="/" md5sum="6cfd75ca626dc0172f7dd088e16a56e6" name="apps/mobile_frontend/modules/authUsername/actions/actions.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="0d3ff70536a6552b864f1a6b2cf43cee" name="apps/pc_backend/modules/opAuthUsernamePlugin/actions/actions.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="f2a8fc8850abd3f9a775494e0a914b74" name="apps/pc_backend/modules/opAuthUsernamePlugin/templates/settingSuccess.php" role="data" />
+   <file baseinstalldir="/" md5sum="43f9f6282097a04546680f64d5c50d07" name="apps/pc_frontend/i18n/messages.ja.xml" role="data" />
+   <file baseinstalldir="/" md5sum="6cfd75ca626dc0172f7dd088e16a56e6" name="apps/pc_frontend/modules/authUsername/actions/actions.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="77c99d03d8c117689b5fc5c0652e5c51" name="config/auth.yml" role="data" />
+   <file baseinstalldir="/" md5sum="bbfa10e479069aff3cd6a0be58fa7db4" name="data/fixtures/firstuser.yml" role="data" />
+   <file baseinstalldir="/" md5sum="a59bce265798ef72eda5d5f86fa0dade" name="lib/action/opAuthUsernamePluginAuthUsernameActions.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="346f75299466a13851e28e5569f0f651" name="lib/form/opAuthConfigFormUsername.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="a22112823968a65bf8e4fff6a49522b2" name="lib/form/opAuthLoginFormUsername.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="0bf8a446b1a14ff36cc51bdc17946ec9" name="lib/form/opAuthRegisterFormUsername.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="31e3ddeb5c97992eeecfe97561a7b2e9" name="lib/user/opAuthAdapterUsername.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="25b04d5e2306bbc79824f120dc88d181" name="test/bootstrap/database.php" role="data" />
+   <file baseinstalldir="/" md5sum="2089e76b9d0ae0fd4d222ee37ea68cb5" name="test/bootstrap/functional.php" role="data" />
+   <file baseinstalldir="/" md5sum="4bfa4b596e946c8a283410a2e2ba4315" name="test/bootstrap/unit.php" role="data" />
+   <file baseinstalldir="/" md5sum="ae39ddc1dbca9c21b8a5505644272999" name="test/fixtures/test_data.yml" role="data" />
+   <file baseinstalldir="/" md5sum="10cbdc5f1a3804886196c373c6f71930" name="test/functional/mobile_frontend/authUsernameActionsTest.php" role="data" />
+   <file baseinstalldir="/" md5sum="0a81cc5c18ba4f6733fac2f6cab51ba6" name="test/functional/pc_frontend/authUsernameActionsTest.php" role="data" />
+   <file baseinstalldir="/" md5sum="b80e68fa8fc01c2b465a219ab46c3001" name="README" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.9.0</release>
+    <api>0.9.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2011-12-08</date>
+   <license>PHP</license>
+   <notes>
+ログイン・新規登録まで。
+   </notes>
+  </release>
+ </changelog>
+</package>

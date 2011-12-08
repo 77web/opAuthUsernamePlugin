@@ -1,0 +1,4 @@
+package:
+  openpne:
+    channel: plugins.openpne.jp
+    min: 3.6.1
