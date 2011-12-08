@@ -1,3 +1,9 @@
+pearinstaller:
+  min: 1.4.0
+
+php:
+  min: 5.2.3
+
 package:
   openpne:
     channel: plugins.openpne.jp

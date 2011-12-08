@@ -14,7 +14,7 @@
   <active>yes</active>
  </lead>
  <date>2011-12-08</date>
- <time>11:49:06</time>
+ <time>11:51:30</time>
  <version>
   <release>0.9.0</release>
   <api>0.9.0</api>
@@ -48,6 +48,7 @@
    <file baseinstalldir="/" md5sum="ae39ddc1dbca9c21b8a5505644272999" name="test/fixtures/test_data.yml" role="data" />
    <file baseinstalldir="/" md5sum="10cbdc5f1a3804886196c373c6f71930" name="test/functional/mobile_frontend/authUsernameActionsTest.php" role="data" />
    <file baseinstalldir="/" md5sum="0a81cc5c18ba4f6733fac2f6cab51ba6" name="test/functional/pc_frontend/authUsernameActionsTest.php" role="data" />
+   <file baseinstalldir="/" md5sum="8c358579b0fe6bc71e7c4430c3fb1fd0" name="dependencies.yml" role="data" />
    <file baseinstalldir="/" md5sum="b80e68fa8fc01c2b465a219ab46c3001" name="README" role="data" />
   </dir>
  </contents>
@@ -59,6 +60,11 @@
    <pearinstaller>
     <min>1.4.0</min>
    </pearinstaller>
+   <package>
+    <name>openpne</name>
+    <channel>plugins.openpne.jp</channel>
+    <min>3.6.1</min>
+   </package>
   </required>
  </dependencies>
  <phprelease />
