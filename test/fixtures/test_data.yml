@@ -1,0 +1,14 @@
+Member:
+  first_member:
+    name: OpenPNE君
+    is_active: true
+    
+MemberConfig:
+  first_member_username:
+    name: "username"
+    value: "testuser"
+    Member: first_member
+  first_member_password:
+    name: "password"
+    value: "password"
+    Member: first_member
