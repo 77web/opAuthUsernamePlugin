@@ -9,6 +9,17 @@ $browser = new opTestFunctional(new sfBrowser(), new lime_test(null, new lime_ou
 $browser->setCulture('en');
 
 //login
+
+//first, disable opAuthMailAddressPlugin
+$plugin = Doctrine::getTable('Plugin')->findOneByName('opAuthMailAddressPlugin');
+if(!$plugin)
+{
+  $plugin = new Plugin();
+  $plugin->setName('opAuthMailAddressPlugin');
+}
+$plugin->setIsEnabled(false);
+$plugin->save();
+
 $browser->get('/')
   ->setField('authUsername[username]', 'testuser')
   ->setField('authUsername[password]', 'password')
@@ -25,6 +36,10 @@ $browser->get('/')
     ->isAuthenticated()
   ->end()
 ;
+//enable opAuthMailAddressPlugin
+$plugin->setIsEnabled(true);
+$plugin->save();
+
 
 //register
 $browser->get('/authUsername/register')
