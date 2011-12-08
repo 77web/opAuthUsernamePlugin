@@ -3,7 +3,7 @@
 class opAuthAdapterUsername extends opAuthAdapter
 {
   protected
-    $authModuleName = 'Username';
+    $authModuleName = 'authUsername';
   
   public function isRegisterBegin($memberId = null)
   {
@@ -15,12 +15,7 @@ class opAuthAdapterUsername extends opAuthAdapter
     {
       return false;
     }
-
-    if (!Doctrine::getTable('MemberConfig')->retrieveByNameAndMemberId('pc_address_pre', $member->getId()) && !Doctrine::getTable('MemberConfig')->retrieveByNameAndMemberId('mobile_address_pre', $member->getId()))
-    {
-      return false;
-    }
-
+    
     if (!$member->getIsActive())
     {
       return true;

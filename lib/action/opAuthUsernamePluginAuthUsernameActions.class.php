@@ -4,7 +4,7 @@
  * @subpackage action
  * @auther     Hiromi Hishida<info@77-web.com>
  */
-class opAuthUsernamePluginAuthUsernameActions extends sfActions
+class opAuthUsernamePluginAuthUsernameActions extends opAuthAction
 {
   public function executeRegister(sfWebRequest $request)
   {
