@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="">
+        <source>Invitation to %sns%</source>
+        <target>%sns%招待状</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Mail address</source>
+        <target>メールアドレス</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Captcha</source>
+        <target>キーワード</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

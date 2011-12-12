@@ -12,4 +12,14 @@ auth_mode_caption:
   Default: "Username Login"
 
 self_invite_action:
+  IsConfig: 0
   Default: "authUsername/register"
+
+require_mailaddress:
+  FormType: "radio"
+  IsRequired: true
+  Caption: "Mail address in register"
+  Default: 1
+  Choices:
+    1: "Require mail address"
+    0: "Do not require mail address"

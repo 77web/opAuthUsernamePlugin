@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="">
+        <source>The register uri will be in your mailbox.</source>
+        <target>メールで招待状をお送りしました。ご確認ください。</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
