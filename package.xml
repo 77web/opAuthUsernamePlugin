@@ -13,11 +13,11 @@
   <email />
   <active>yes</active>
  </lead>
- <date>2011-12-08</date>
- <time>19:37:53</time>
+ <date>2011-12-13</date>
+ <time>09:59:11</time>
  <version>
-  <release>0.9.1</release>
-  <api>0.9.1</api>
+  <release>0.9.2</release>
+  <api>0.9.2</api>
  </version>
  <stability>
   <release>beta</release>
@@ -25,7 +25,7 @@
  </stability>
  <license>PHP</license>
  <notes>
-ログイン・新規登録まで。
+登録時にusernameが保存されない不具合修正
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -35,19 +35,19 @@
    <file baseinstalldir="/" md5sum="f2a8fc8850abd3f9a775494e0a914b74" name="apps/pc_backend/modules/opAuthUsernamePlugin/templates/settingSuccess.php" role="data" />
    <file baseinstalldir="/" md5sum="43f9f6282097a04546680f64d5c50d07" name="apps/pc_frontend/i18n/messages.ja.xml" role="data" />
    <file baseinstalldir="/" md5sum="6cfd75ca626dc0172f7dd088e16a56e6" name="apps/pc_frontend/modules/authUsername/actions/actions.class.php" role="data" />
-   <file baseinstalldir="/" md5sum="77c99d03d8c117689b5fc5c0652e5c51" name="config/auth.yml" role="data" />
+   <file baseinstalldir="/" md5sum="0b5b75c2d648e9b446303b27324a40d5" name="config/auth.yml" role="data" />
    <file baseinstalldir="/" md5sum="7c88b287f8b62067881d618c2aff6fb3" name="data/fixtures/firstuser.yml" role="data" />
    <file baseinstalldir="/" md5sum="a59bce265798ef72eda5d5f86fa0dade" name="lib/action/opAuthUsernamePluginAuthUsernameActions.class.php" role="data" />
    <file baseinstalldir="/" md5sum="346f75299466a13851e28e5569f0f651" name="lib/form/opAuthConfigFormUsername.class.php" role="data" />
    <file baseinstalldir="/" md5sum="a22112823968a65bf8e4fff6a49522b2" name="lib/form/opAuthLoginFormUsername.class.php" role="data" />
-   <file baseinstalldir="/" md5sum="0bf8a446b1a14ff36cc51bdc17946ec9" name="lib/form/opAuthRegisterFormUsername.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="1f602645194f0f50270f7b616d82e999" name="lib/form/opAuthRegisterFormUsername.class.php" role="data" />
    <file baseinstalldir="/" md5sum="31e3ddeb5c97992eeecfe97561a7b2e9" name="lib/user/opAuthAdapterUsername.class.php" role="data" />
    <file baseinstalldir="/" md5sum="25b04d5e2306bbc79824f120dc88d181" name="test/bootstrap/database.php" role="data" />
    <file baseinstalldir="/" md5sum="2089e76b9d0ae0fd4d222ee37ea68cb5" name="test/bootstrap/functional.php" role="data" />
    <file baseinstalldir="/" md5sum="4bfa4b596e946c8a283410a2e2ba4315" name="test/bootstrap/unit.php" role="data" />
    <file baseinstalldir="/" md5sum="ae39ddc1dbca9c21b8a5505644272999" name="test/fixtures/test_data.yml" role="data" />
    <file baseinstalldir="/" md5sum="10cbdc5f1a3804886196c373c6f71930" name="test/functional/mobile_frontend/authUsernameActionsTest.php" role="data" />
-   <file baseinstalldir="/" md5sum="0a81cc5c18ba4f6733fac2f6cab51ba6" name="test/functional/pc_frontend/authUsernameActionsTest.php" role="data" />
+   <file baseinstalldir="/" md5sum="1d1771479dceb39696ef6f6899546620" name="test/functional/pc_frontend/authUsernameActionsTest.php" role="data" />
    <file baseinstalldir="/" md5sum="8c358579b0fe6bc71e7c4430c3fb1fd0" name="dependencies.yml" role="data" />
    <file baseinstalldir="/" md5sum="b80e68fa8fc01c2b465a219ab46c3001" name="README" role="data" />
   </dir>
@@ -82,6 +82,21 @@
    <license>PHP</license>
    <notes>
 ログイン・新規登録まで。
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.9.2</release>
+    <api>0.9.2</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2011-12-13</date>
+   <license>PHP</license>
+   <notes>
+登録時にusernameが保存されない不具合修正
    </notes>
   </release>
  </changelog>
