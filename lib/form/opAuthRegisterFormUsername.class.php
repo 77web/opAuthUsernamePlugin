@@ -31,4 +31,15 @@ class opAuthRegisterFormUsername extends opAuthRegisterForm
     
     return $values;
   }
+  
+  public function doSave()
+  {
+    $memberConfig = new MemberConfig();
+    $memberConfig->setMember($this->getMember());
+    $memberConfig->setName('username');
+    $memberConfig->setValue($this->getValue('username'));
+    $memberConfig->save();
+    
+    return $memberConfig;
+  }
 }
