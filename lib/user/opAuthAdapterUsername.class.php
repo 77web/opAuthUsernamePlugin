@@ -5,6 +5,23 @@ class opAuthAdapterUsername extends opAuthAdapter
   protected
     $authModuleName = 'authUsername';
   
+  public function activate()
+  {
+    parent::activate();
+    
+    $member = sfContext::getInstance()->getUser()->getMember();
+    if ($member)
+    {
+      $token = Doctrine::getTable('MemberConfig')->retrieveByNameAndMemberId('register_token', $member->getId());
+      if ($token)
+      {
+        $token->delete();
+      }
+    }
+    
+    return $member;
+  }
+  
   public function isRegisterBegin($memberId = null)
   {
     opActivateBehavior::disable();
